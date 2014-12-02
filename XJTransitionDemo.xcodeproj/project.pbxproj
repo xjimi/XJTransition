@@ -14,6 +14,8 @@
 		3C652CA61A2D63C800035C0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C652CA51A2D63C800035C0C /* Images.xcassets */; };
 		3C652CA91A2D63C800035C0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C652CA71A2D63C800035C0C /* LaunchScreen.xib */; };
 		3C652CB51A2D63C800035C0C /* XJTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C652CB41A2D63C800035C0C /* XJTransitionDemoTests.m */; };
+		3C652CC61A2D655B00035C0C /* XJTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C652CC51A2D655B00035C0C /* XJTransition.m */; };
+		3C652CC91A2D688800035C0C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C652CC81A2D688800035C0C /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3C652CAE1A2D63C800035C0C /* XJTransitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJTransitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C652CB31A2D63C800035C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C652CB41A2D63C800035C0C /* XJTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJTransitionDemoTests.m; sourceTree = "<group>"; };
+		3C652CC41A2D655B00035C0C /* XJTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XJTransition.h; path = XJTransition/XJTransition.h; sourceTree = SOURCE_ROOT; };
+		3C652CC51A2D655B00035C0C /* XJTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XJTransition.m; path = XJTransition/XJTransition.m; sourceTree = SOURCE_ROOT; };
+		3C652CC71A2D688800035C0C /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3C652CC81A2D688800035C0C /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,13 @@
 		3C652C971A2D63C800035C0C /* XJTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3C652CC31A2D64FE00035C0C /* XJTransition */,
 				3C652C9C1A2D63C800035C0C /* AppDelegate.h */,
 				3C652C9D1A2D63C800035C0C /* AppDelegate.m */,
 				3C652C9F1A2D63C800035C0C /* ViewController.h */,
 				3C652CA01A2D63C800035C0C /* ViewController.m */,
+				3C652CC71A2D688800035C0C /* TestViewController.h */,
+				3C652CC81A2D688800035C0C /* TestViewController.m */,
 				3C652CA21A2D63C800035C0C /* Main.storyboard */,
 				3C652CA51A2D63C800035C0C /* Images.xcassets */,
 				3C652CA71A2D63C800035C0C /* LaunchScreen.xib */,
@@ -117,6 +126,15 @@
 				3C652CB31A2D63C800035C0C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C652CC31A2D64FE00035C0C /* XJTransition */ = {
+			isa = PBXGroup;
+			children = (
+				3C652CC41A2D655B00035C0C /* XJTransition.h */,
+				3C652CC51A2D655B00035C0C /* XJTransition.m */,
+			);
+			path = XJTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +239,9 @@
 			files = (
 				3C652CA11A2D63C800035C0C /* ViewController.m in Sources */,
 				3C652C9E1A2D63C800035C0C /* AppDelegate.m in Sources */,
+				3C652CC61A2D655B00035C0C /* XJTransition.m in Sources */,
 				3C652C9B1A2D63C800035C0C /* main.m in Sources */,
+				3C652CC91A2D688800035C0C /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
